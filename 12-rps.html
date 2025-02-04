@@ -1,0 +1,33 @@
+<html>
+<head> <title> 10-object </title>
+
+<link rel="stylesheet" href="styles/11-rps.css">
+</head>
+<body>
+
+
+
+<p class='css-title'> Rock Paper Scissors </p>
+<button  onclick="playGame('rock');" class="move-button js-rock-button"> 
+<img src="images/rock.png" class="move-icon"></button>
+<button onclick="playGame('paper');" class="move-button js-paper-button"> 
+<img src="images/paper.png" class="move-icon " ></button>
+<button  onclick="playGame('scissors');" class="move-button js-scissors-button"> 
+<img src="images/scissors.png" class="move-icon"></button>
+<p class="js-result result"></p>
+<p class='js-moves'></p>
+<p class="js-score score"></p>
+<button 
+class="reset-button js-reset-button"  onclick="reset_confirmation()"> Reset score </button>
+<button   onclick="
+     autoplay(); 
+  " class="auto-play-button js-autoplay-button"
+ > Auto Play</button>
+<div class="js_confirmation_message">
+</div>
+<script src="scripts/11-rps.js">
+</script>
+</body>
+</html>
+
+
